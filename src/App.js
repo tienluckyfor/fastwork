@@ -3,6 +3,7 @@ import {BrowserRouter, Routes, Route,} from "react-router-dom"
 import {Loading} from "components/Loading";
 import {authRoutes} from "pages/auth/authRoutes";
 import {homeRoutes} from "./pages/home/homeRoutes";
+import {ganttChartRouter} from "./pages/ganttChart/ganttChartRoutes";
 // import {projectRoutes} from "./pages/project/projectRoutes";
 import {apiCodeby} from "./configs/apiCodeby";
 
@@ -22,7 +23,8 @@ function App() {
                         {[
                             // ...projectRoutes,
                             ...authRoutes,
-                            ...homeRoutes
+                            ...homeRoutes,
+                            ...ganttChartRouter
                         ].map((props, key) => <Route key={key} {...props} />)}
                     </Routes>
                 </React.Suspense>
