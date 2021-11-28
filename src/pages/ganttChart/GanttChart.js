@@ -59,6 +59,7 @@ const GanttChart = () => {
   };
 
   
+  
 
   return (
     <>

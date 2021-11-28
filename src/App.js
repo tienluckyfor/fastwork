@@ -4,6 +4,7 @@ import {Loading} from "components/Loading";
 import {authRoutes} from "pages/auth/authRoutes";
 import {homeRoutes} from "./pages/home/homeRoutes";
 import {ganttChartRouter} from "./pages/ganttChart/ganttChartRoutes";
+import {vulqRoutes} from "./pages/vulq/vulqRoutes";
 // import {projectRoutes} from "./pages/project/projectRoutes";
 import {apiCodeby} from "./configs/apiCodeby";
 
@@ -24,7 +25,8 @@ function App() {
                             // ...projectRoutes,
                             ...authRoutes,
                             ...homeRoutes,
-                            ...ganttChartRouter
+                            ...ganttChartRouter,
+                            ...vulqRoutes
                         ].map((props, key) => <Route key={key} {...props} />)}
                     </Routes>
                 </React.Suspense>
