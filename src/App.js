@@ -7,7 +7,7 @@ import { vulqRoutes } from "./pages/vulq/vulqRoutes";
 import { datvntRoutes } from "./pages/datvnt/datvntRoutes";
 // import {projectRoutes} from "./pages/project/projectRoutes";
 import { apiCodeby } from "./configs/apiCodeby";
-
+import '@fortawesome/fontawesome-free/css/all.min.css';
 function App() {
 
     useEffect(() => {
