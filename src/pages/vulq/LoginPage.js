@@ -41,9 +41,9 @@ const LoginPage = () => {
   return (
     <div className="flex">
       
-      <div className="w-2/5 bg-purple-400">
-        <div className="flex justify-center">
-          <img src="http://placehold.it/300x200/0000ff?text=LOGO" className="w-full h-auto" alt="logo image" />
+      <div className="w-2/5 bg-gradient-to-bl from-yellow-400 via-red-500 to-pink-500">
+        <div className="block mx-auto my-3 w-1/2">
+          <img src="../../images/vulq/vintage-kancilan-farmers-market-logo-vector.webp" className="w-full h-auto" alt="logo image" />
         </div>
         
         <div className="px-12">
@@ -103,8 +103,8 @@ const LoginPage = () => {
       </div>
       <div className="w-3/5 bg-right_login bg-cover bg-no-repeat bg-center">
         <div className="h-full flex flex-col justify-end justify-items-end">
-          <p className="text-6xl text-right mr-20 mb-2">SLOGAN</p>
-          <p className="text-4xl text-right mr-20 mb-28">Sub Text</p>
+          <p className="text-6xl text-white text-right mr-20 mb-2">SLOGAN</p>
+          <p className="text-4xl text-white text-right mr-20 mb-28">Sub Text</p>
           <div className="grid justify-items-end mb-5">
             <Dropdown overlay={language_menu} className="mr-5">
               <Button size={'large'}>
