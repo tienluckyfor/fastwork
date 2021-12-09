@@ -1,5 +1,5 @@
 /*
-npx tailwindcss-cli@latest build -i ./src/styles/tailwind/custom.css -c ./src/styles/tailwind/config.js -o ./src/styles/tailwind/tailwind-output.css;
+npx tailwindcss-cli@latest build -i ./src/styles/tailwind/custom.css -c ./src/styles/tailwind/config.js -o ./src/styles/tailwind/tailwind-output.css
 */
 
 /*
@@ -17705,7 +17705,7 @@ video {
 }
 
 .bg-right_login {
-  background-image: url('http://placehold.it/500x500/0ff00?text=backgroundImage');
+  background-image: url('../../images/vulq/Welcomes-New-Members.webp');
 }
 
 .from-transparent {
@@ -48683,7 +48683,7 @@ video {
   }
 
   .sm\:bg-right_login {
-    background-image: url('http://placehold.it/500x500/0ff00?text=backgroundImage');
+    background-image: url('../../images/vulq/Welcomes-New-Members.webp');
   }
 
   .sm\:from-transparent {
@@ -78894,7 +78894,7 @@ video {
   }
 
   .md\:bg-right_login {
-    background-image: url('http://placehold.it/500x500/0ff00?text=backgroundImage');
+    background-image: url('../../images/vulq/Welcomes-New-Members.webp');
   }
 
   .md\:from-transparent {
@@ -109105,7 +109105,7 @@ video {
   }
 
   .lg\:bg-right_login {
-    background-image: url('http://placehold.it/500x500/0ff00?text=backgroundImage');
+    background-image: url('../../images/vulq/Welcomes-New-Members.webp');
   }
 
   .lg\:from-transparent {
@@ -139316,7 +139316,7 @@ video {
   }
 
   .xl\:bg-right_login {
-    background-image: url('http://placehold.it/500x500/0ff00?text=backgroundImage');
+    background-image: url('../../images/vulq/Welcomes-New-Members.webp');
   }
 
   .xl\:from-transparent {
@@ -169527,7 +169527,7 @@ video {
   }
 
   .\32xl\:bg-right_login {
-    background-image: url('http://placehold.it/500x500/0ff00?text=backgroundImage');
+    background-image: url('../../images/vulq/Welcomes-New-Members.webp');
   }
 
   .\32xl\:from-transparent {

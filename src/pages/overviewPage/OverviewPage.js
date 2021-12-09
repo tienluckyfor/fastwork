@@ -245,7 +245,7 @@ const OverviewPage = () => {
       <div className="grid grid-cols-2 gap-4">
         <div className="space-y-4 bg-white shadow-lg border-2" >
           <div className="border-b-2">
-            <p className="text-2xl font-medium ml-6">List of members</p>
+            <p className="text-2xl font-medium ml-6 py-2">List of members</p>
           </div>
           <div className="flex justify-between px-4 ">
             <div className="flex space-x-4">
@@ -270,7 +270,7 @@ const OverviewPage = () => {
         </div>
         <div className="space-y-4 bg-white shadow-lg border-2">
           <div className="border-b-2">
-            <p className="text-2xl font-medium ml-6">List of milestone</p>
+            <p className="text-2xl font-medium ml-6 py-2">List of milestone</p>
           </div>
           <div className="flex justify-between px-4 ">
             <div className="flex space-x-4">

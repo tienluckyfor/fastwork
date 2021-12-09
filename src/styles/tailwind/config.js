@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'right_login': "url('http://placehold.it/500x500/0ff00?text=backgroundImage')",
+        'right_login': "url('../../images/vulq/Welcomes-New-Members.webp')",
       }
     },
   },
