@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
+    "@syncfusion/ej2-react-charts": "^19.3.55",
     "@syncfusion/ej2-react-gantt": "^19.3.55",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -13,6 +14,7 @@
     "react": "^17.0.2",
     "react-api-codeby": "^1.0.5",
     "react-dom": "^17.0.2",
+    "react-google-charts": "^3.0.15",
     "react-helmet": "^6.1.0",
     "react-scripts": "^4.0.3",
     "web-vitals": "^1.0.1"

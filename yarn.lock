@@ -1734,10 +1734,10 @@
     "@svgr/plugin-svgo" "^5.5.0"
     "loader-utils" "^2.0.0"
 
-"@syncfusion/ej2-base@~19.3.53", "@syncfusion/ej2-base@~19.3.54":
-  "integrity" "sha512-y/prIFOB6BzpzFc6WfUFKMV73dMrxhtI3VZALHnZu59B3kjcqiDWfwMkiGnanMM2H7MJDTVI01TsrY6k7JgRlA=="
-  "resolved" "https://registry.npmjs.org/@syncfusion/ej2-base/-/ej2-base-19.3.54.tgz"
-  "version" "19.3.54"
+"@syncfusion/ej2-base@~19.3.53", "@syncfusion/ej2-base@~19.3.54", "@syncfusion/ej2-base@~19.3.56":
+  "integrity" "sha512-zidOG4IuWk75AzulLM2qqoHOlQsdu/ICPb2x92Bzjeq5ol2fqY1Yy26+rqhDY8NJllOBGdtsRmUCGyjN4E3MRA=="
+  "resolved" "https://registry.npmjs.org/@syncfusion/ej2-base/-/ej2-base-19.3.57.tgz"
+  "version" "19.3.57"
   dependencies:
     "@syncfusion/ej2-icons" "~19.3.53"
 
@@ -1758,6 +1758,20 @@
     "@syncfusion/ej2-inputs" "~19.3.53"
     "@syncfusion/ej2-lists" "~19.3.53"
     "@syncfusion/ej2-popups" "~19.3.53"
+
+"@syncfusion/ej2-charts@19.3.55":
+  "integrity" "sha512-BNTmq+HIGOT6n3Z+wHW/2N8AvUYVdZ7dneMDWV8TlyeVRAO4rX9T0MTsIf3IsRsZnCEmrb5J4lvsaJ+oo2RbTw=="
+  "resolved" "https://registry.npmjs.org/@syncfusion/ej2-charts/-/ej2-charts-19.3.55.tgz"
+  "version" "19.3.55"
+  dependencies:
+    "@syncfusion/ej2-base" "~19.3.54"
+    "@syncfusion/ej2-calendars" "~19.3.55"
+    "@syncfusion/ej2-compression" "~19.3.53"
+    "@syncfusion/ej2-data" "~19.3.53"
+    "@syncfusion/ej2-file-utils" "~19.3.53"
+    "@syncfusion/ej2-navigations" "~19.3.54"
+    "@syncfusion/ej2-pdf-export" "~19.3.53"
+    "@syncfusion/ej2-svg-base" "~19.3.53"
 
 "@syncfusion/ej2-compression@~19.3.53":
   "integrity" "sha512-AzFdUBKpB/4I6Okn/5P1s+o+i856LYRWNyw/xWp+BUQd/1/NhcBdBVDX/F/dx06RtYm8fHNJjyZe91CkK6ROjA=="
@@ -1913,11 +1927,20 @@
     "@syncfusion/ej2-buttons" "~19.3.53"
 
 "@syncfusion/ej2-react-base@~19.3.53":
-  "integrity" "sha512-q6Sgnr9NG+6UQEJZUuFNfYLCbSsTde0Ohe0BUuMWJs8DxUHdY3h13wrx0E4Cx3lo5PotAr8UaRXcSxkL9k6ffg=="
-  "resolved" "https://registry.npmjs.org/@syncfusion/ej2-react-base/-/ej2-react-base-19.3.53.tgz"
-  "version" "19.3.53"
+  "integrity" "sha512-0QfJ4U7Ln477naASa4wPipfDZGcCdDoRyyIM7GUHRcljWmuJHd3Zbo4maWmOh8WH01d/lczW+EZVTtiDQTSv1g=="
+  "resolved" "https://registry.npmjs.org/@syncfusion/ej2-react-base/-/ej2-react-base-19.3.57.tgz"
+  "version" "19.3.57"
   dependencies:
-    "@syncfusion/ej2-base" "~19.3.53"
+    "@syncfusion/ej2-base" "~19.3.56"
+
+"@syncfusion/ej2-react-charts@^19.3.55":
+  "integrity" "sha512-RVTCfDGhpsCVik54c+leIQECgrv/BbeNfFaQSOFzuR8EY6u3mjacy8FEzZqIEzufJdvmcBo0YKan0oFdQQf99Q=="
+  "resolved" "https://registry.npmjs.org/@syncfusion/ej2-react-charts/-/ej2-react-charts-19.3.55.tgz"
+  "version" "19.3.55"
+  dependencies:
+    "@syncfusion/ej2-base" "~19.3.54"
+    "@syncfusion/ej2-charts" "19.3.55"
+    "@syncfusion/ej2-react-base" "~19.3.53"
 
 "@syncfusion/ej2-react-gantt@^19.3.55":
   "integrity" "sha512-i3JDXAHUzBmHCPDaACax/3EYEeUr22SDuD3TnYK9hSYkkHqj66FUOwXmUGOnJhbTa6ejlxG6OQR1g+kq3515cQ=="
@@ -1948,6 +1971,13 @@
   dependencies:
     "@syncfusion/ej2-base" "~19.3.53"
     "@syncfusion/ej2-popups" "~19.3.53"
+
+"@syncfusion/ej2-svg-base@~19.3.53":
+  "integrity" "sha512-S48PRFiimR1qL+nMaS2mrYjUnzzuLtgNH5g+bj8X2xy9548aONVSgKQwbmNQhHmcwHHlQbIIgraXe166yQf33A=="
+  "resolved" "https://registry.npmjs.org/@syncfusion/ej2-svg-base/-/ej2-svg-base-19.3.53.tgz"
+  "version" "19.3.53"
+  dependencies:
+    "@syncfusion/ej2-base" "~19.3.53"
 
 "@syncfusion/ej2-treegrid@~19.3.55":
   "integrity" "sha512-7FdTrRmpCsZsMLY4Dys9pmiOeaYebd6dfhQ9yfbvFDF0Dh6p8huff//DLj4brTGekzcNjTXUoItju+8wFl1rXw=="
@@ -9545,7 +9575,7 @@
     "kleur" "^3.0.3"
     "sisteransi" "^1.0.5"
 
-"prop-types@^15.6.2", "prop-types@^15.7.2":
+"prop-types@^15.6.2", "prop-types@^15.7.2", "prop-types@>=15":
   "integrity" "sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ=="
   "resolved" "https://registry.npmjs.org/prop-types/-/prop-types-15.7.2.tgz"
   "version" "15.7.2"
@@ -10100,7 +10130,7 @@
     "strip-ansi" "6.0.0"
     "text-table" "0.2.0"
 
-"react-dom@*", "react-dom@^17.0.2", "react-dom@>= 16.9.0", "react-dom@>=16.0.0", "react-dom@>=16.8", "react-dom@>=16.9.0":
+"react-dom@*", "react-dom@^17.0.2", "react-dom@>= 16.9.0", "react-dom@>=16.0.0", "react-dom@>=16.3.0", "react-dom@>=16.8", "react-dom@>=16.9.0":
   "integrity" "sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-17.0.2.tgz"
   "version" "17.0.2"
@@ -10129,6 +10159,13 @@
   "resolved" "https://registry.npmjs.org/react-fast-compare/-/react-fast-compare-3.2.0.tgz"
   "version" "3.2.0"
 
+"react-google-charts@^3.0.15":
+  "integrity" "sha512-78s5xOQOJvL+jIewrWQZEHtlVk+5Yh4zZy+ODA1on1o1FaRjKWXxoo4n4JQl1XuqkF/A9NWque3KqM6pMggjzQ=="
+  "resolved" "https://registry.npmjs.org/react-google-charts/-/react-google-charts-3.0.15.tgz"
+  "version" "3.0.15"
+  dependencies:
+    "react-load-script" "^0.0.6"
+
 "react-helmet@^6.1.0":
   "integrity" "sha512-4uMzEY9nlDlgxr61NL3XbKRy1hEkXmKNXhjbAIOVw5vcFrsdYbH2FEwcNyWvWinl103nXgzYNlns9ca+8kFiWw=="
   "resolved" "https://registry.npmjs.org/react-helmet/-/react-helmet-6.1.0.tgz"
@@ -10153,6 +10190,11 @@
   "integrity" "sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w=="
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-17.0.2.tgz"
   "version" "17.0.2"
+
+"react-load-script@^0.0.6":
+  "integrity" "sha512-aRGxDGP9VoLxcsaYvKWIW+LRrMOzz2eEcubTS4NvQPPugjk2VvMhow0wWTkSl7RxookomD1MwcP4l5UStg5ShQ=="
+  "resolved" "https://registry.npmjs.org/react-load-script/-/react-load-script-0.0.6.tgz"
+  "version" "0.0.6"
 
 "react-redux@^7.2.1", "react-redux@^7.2.6":
   "integrity" "sha512-10RPdsz0UUrRL1NZE0ejTkucnclYSgXp5q+tB5SWx2qeG2ZJQJyymgAhwKy73yiL/13btfB6fPr+rgbMAaZIAQ=="
@@ -10257,7 +10299,7 @@
   "resolved" "https://registry.npmjs.org/react-side-effect/-/react-side-effect-2.1.1.tgz"
   "version" "2.1.1"
 
-"react@*", "react@^16.14.0 || ^17.0.0", "react@^16.3.0 || ^17.0.0", "react@^16.8.3 || ^17", "react@^17.0.2", "react@>= 16", "react@>= 16.9.0", "react@>=16.0.0", "react@>=16.3.0", "react@>=16.8", "react@>=16.9.0", "react@17.0.2":
+"react@*", "react@^16.14.0 || ^17.0.0", "react@^16.3.0 || ^17.0.0", "react@^16.8.3 || ^17", "react@^17.0.2", "react@>= 16", "react@>= 16.9.0", "react@>=0.14.9", "react@>=16.0.0", "react@>=16.3.0", "react@>=16.8", "react@>=16.9.0", "react@17.0.2":
   "integrity" "sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA=="
   "resolved" "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
   "version" "17.0.2"
