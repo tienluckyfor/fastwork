@@ -5,6 +5,7 @@ import { authRoutes } from "pages/auth/authRoutes";
 import { homeRoutes } from "./pages/home/homeRoutes";
 import { vulqRoutes } from "./pages/vulq/vulqRoutes";
 import { datvntRoutes } from "./pages/datvnt/datvntRoutes";
+import {ganttChartRouter} from "./pages/ganttChart/ganttChartRoutes";
 // import {projectRoutes} from "./pages/project/projectRoutes";
 import { apiCodeby } from "./configs/apiCodeby";
 import '@fortawesome/fontawesome-free/css/all.min.css';
@@ -25,6 +26,7 @@ function App() {
                             // ...projectRoutes,
                             ...authRoutes,
                             ...homeRoutes,
+                            ...ganttChartRouter,
                             ...vulqRoutes,
                             ...datvntRoutes
                         ].map((props, key) => <Route key={key} {...props} />)}
