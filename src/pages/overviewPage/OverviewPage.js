@@ -1,6 +1,5 @@
 import { Input, Progress, Select, Table } from "antd";
 import React from "react";
-import Chart from "react-google-charts";
 import DonutChart from "./DonutChart";
 import LineChart from "./LineChart";
 
