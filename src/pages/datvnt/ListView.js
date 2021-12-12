@@ -154,9 +154,10 @@ const ListView = () => {
     ]
 
     return (
-        <LayoutPage>
-            <section style={{ background: "#f3dbe4" }} className="antialiased bg-gray-100 text-gray-600 h-screen px-4 pt-10 border border-red-700">
-                <div className="px-16">
+        <>
+            {/* <section style={{ background: "#f3dbe4" }} className="antialiased bg-gray-100 text-gray-600 px-4 pt-10"> */}
+            <section>
+                {/* <div className="px-16">
                     <div className="flex justify-between py-4">
                         <div>
                             <button style={{ background: "#c14f79" }} class="hover:bg-blue-700 text-white font-bold py-3 px-4">
@@ -170,7 +171,6 @@ const ListView = () => {
                         </div>
                     </div>
                     <div className="flex flex-col justify-center ">
-                        {/* <div className="w-full max-w-2xl mx-auto bg-white shadow-lg rounded-sm border border-gray-200"> */}
                         <div className="w-full mx bg-white shadow-lg rounded-sm border border-gray-200">
                             <div class="grid grid-cols-10 gap-1 py-1">
                                 <div style={{ background: "#c14f79" }} className="py-2"></div>
@@ -209,7 +209,7 @@ const ListView = () => {
 
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <div className="px-16 ">
                     <div className="overflow-x-auto bg-white mt-3">
                         <table className="table-auto w-full">
@@ -247,7 +247,7 @@ const ListView = () => {
                                 </tr>
                             </thead>
                             <tbody className="text-sm divide-y divide-gray-100">
-                            {
+                                {
                                     dataList.map((item, index) => {
                                         return (
                                             <tr key={index}>
@@ -355,13 +355,11 @@ const ListView = () => {
                                     )}
                                 />
                             </tbody> */}
-
-
                         </table>
                     </div>
                 </div>
             </section>
-        </LayoutPage>
+        </>
 
     )
 }
