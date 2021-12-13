@@ -77,7 +77,7 @@ const MenuHeader = () => {
         
     }
     return (
-        <div style={{ background: "#f3dbe4" }} className="antialiased bg-gray-100 text-gray-600 px-4 pt-10">
+        <div style={{ background: "#f3dbe4" }} className="antialiased bg-gray-100 text-gray-600 px-4 pt-10 ">
             <div className="flex">
                 <SideBarLeft />
                 <div className="w-screen w-4/5 px-1 py-1">
@@ -99,37 +99,37 @@ const MenuHeader = () => {
                             <div className="w-full mx bg-white shadow-lg rounded-sm border border-gray-200">
                                 <div class="grid grid-cols-10 gap-1 py-1">
 
-                                    <div style={{ background: "#c14f79" }} className="cursor-pointer text-white text-center py-2 text-xl"
+                                    <div style={{ background: "#c14f79" }} className="cursor-pointer text-white text-center py-2 text-lg"
                                         onClick={() => setPage("ListView")}
                                     >Task</div>
-                                    <div style={{ background: "#c14f79" }} className="cursor-pointer text-white text-center py-2 text-xl"
+                                    <div style={{ background: "#c14f79" }} className="cursor-pointer text-white text-center py-2 text-lg"
                                         onClick={() => setPage("KabanView")}>Kaban</div>
-                                    <div style={{ background: "#c14f79" }} className="cursor-pointer text-white text-center py-2 text-xl"
+                                    <div style={{ background: "#c14f79" }} className="cursor-pointer text-white text-center py-2 text-lg"
                                         onClick={() => setPage("MileStone")}>Mile</div>
-                                    <div style={{ background: "#c14f79" }} className="cursor-pointer text-white text-center py-2 text-xl"
+                                    <div style={{ background: "#c14f79" }} className="cursor-pointer text-white text-center py-2 text-lg"
                                         onClick={() => setPage("OverviewPage")}
                                     >
                                         Overview
                                     </div>
-                                    <div style={{ background: "#c14f79" }} className="cursor-pointer text-white text-center py-2 text-xl"
+                                    <div style={{ background: "#c14f79" }} className="cursor-pointer text-white text-center py-2 text-lg"
                                         onClick={() => setPage("Dashboard")}
                                     >
                                         Dashboard
                                     </div>
-                                    <div style={{ background: "#c14f79" }} className="cursor-pointer text-white text-center py-2 text-xl"
+                                    <div style={{ background: "#c14f79" }} className="cursor-pointer text-white text-center py-2 text-lg"
                                         onClick={() => setPage("Files")}
                                     >
                                         Files
                                     </div>
-                                    <div style={{ background: "#c14f79" }} className="cursor-pointer text-white text-center py-2 text-xl"
+                                    <div style={{ background: "#c14f79" }} className="cursor-pointer text-white text-center py-2 text-lg"
                                         onClick={() => setPage("Support")}
                                     >
                                         Support
                                     </div>
                                     
-                                    <div style={{ background: "#c14f79" }} className="cursor-pointer text-white text-center py-2 text-xl"></div>
-                                    <div style={{ background: "#c14f79" }} className="cursor-pointer text-white text-center py-2 text-xl"></div>
-                                    <div style={{ background: "#c14f79" }} className="cursor-pointer text-white text-center py-2 text-xl"></div>
+                                    <div style={{ background: "#c14f79" }} className="cursor-pointer text-white text-center py-2 text-lg"></div>
+                                    <div style={{ background: "#c14f79" }} className="cursor-pointer text-white text-center py-2 text-lg"></div>
+                                    <div style={{ background: "#c14f79" }} className="cursor-pointer text-white text-center py-2 text-lg"></div>
 
                                 </div>
                                 {
