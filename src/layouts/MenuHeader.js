@@ -8,6 +8,8 @@ import KabanView from 'pages/datvnt/KabanView';
 import MileStone from 'pages/datvnt/MileStone';
 import OverviewPage from 'pages/overviewPage/OverviewPage'
 import Dashboard from 'pages/vulq/Dashboard';
+import Files from 'pages/vulq/Files';
+import Support from 'pages/vulq/Support';
 const MenuHeader = () => {
     const { TabPane } = Tabs;
     const dataSummary = [
@@ -66,6 +68,13 @@ const MenuHeader = () => {
         if (linkPage === "Dashboard") {
             return <Dashboard />
         }
+        if (linkPage === "Files") {
+            return <Files />
+        }
+        if (linkPage === "Support") {
+            return <Support />
+        }
+        
     }
     return (
         <div style={{ background: "#f3dbe4" }} className="antialiased bg-gray-100 text-gray-600 px-4 pt-10">
@@ -107,15 +116,24 @@ const MenuHeader = () => {
                                     >
                                         Dashboard
                                     </div>
-                                    <div style={{ background: "#c14f79" }} className="cursor-pointer text-white text-center py-2 text-xl"></div>
-                                    <div style={{ background: "#c14f79" }} className="cursor-pointer text-white text-center py-2 text-xl"></div>
+                                    <div style={{ background: "#c14f79" }} className="cursor-pointer text-white text-center py-2 text-xl"
+                                        onClick={() => setPage("Files")}
+                                    >
+                                        Files
+                                    </div>
+                                    <div style={{ background: "#c14f79" }} className="cursor-pointer text-white text-center py-2 text-xl"
+                                        onClick={() => setPage("Support")}
+                                    >
+                                        Support
+                                    </div>
+                                    
                                     <div style={{ background: "#c14f79" }} className="cursor-pointer text-white text-center py-2 text-xl"></div>
                                     <div style={{ background: "#c14f79" }} className="cursor-pointer text-white text-center py-2 text-xl"></div>
                                     <div style={{ background: "#c14f79" }} className="cursor-pointer text-white text-center py-2 text-xl"></div>
 
                                 </div>
                                 {
-                                    page === "OverviewPage" || page === "MileStone" ? null : <>
+                                    page === "OverviewPage" || page === "MileStone" || page === "Dashboard" || page === "Files" || page === "Support" ? null : <>
                                         <div className="p-3">
                                             <div>
                                                 Task Summary

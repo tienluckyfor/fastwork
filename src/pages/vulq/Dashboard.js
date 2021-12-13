@@ -62,9 +62,9 @@ const Dashboard = () => {
     );
 
     return (
-        <div>
+        <div className="px-16">
             <Layout>
-                <Sider
+                {/*<Sider
                     breakpoint="lg"
                     collapsedWidth="0"
                     width="100"
@@ -97,7 +97,7 @@ const Dashboard = () => {
                         <Menu.Item key="7" icon={<ToolOutlined />}>
                         </Menu.Item>
                     </Menu>
-                </Sider>
+                </Sider>*/}
                 <Layout>
                     <Header>
                         <div className="flex">
@@ -269,9 +269,9 @@ const Dashboard = () => {
                             <div className="p-2 bg-white mt-2">
                                 <div className="flex">
                                     <div className="w-1/3">
-                                        <p className="text-lg font-semibold">
+                                        <a href="" className="text-lg font-semibold">
                                             Nhà máy xay xát lúa mì công suất 200T/ngày_Kho Tiến Hưng Bắc Ninh
-                                        </p>
+                                        </a>
                                         <div className="flex">
                                             <div className="flex flex-col justify-center">
                                                 <div className="rounded-full h-2 w-2 bg-blue-600"></div>
@@ -379,7 +379,7 @@ const Dashboard = () => {
                         </div>
                     </Content>
                 </Layout>
-                <Sider
+                {/*<Sider
                     breakpoint="lg"
                     collapsedWidth="0"
                     reverseArrow="true"
@@ -402,7 +402,7 @@ const Dashboard = () => {
                         </Menu.Item>
 
                     </Menu>
-                </Sider>
+                </Sider>*/}
             </Layout>
         </div>
     )
